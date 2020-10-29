@@ -4,6 +4,10 @@ In this frontend we leverage `React` for all the rendering. We also user `Overmi
 
 I think `ApolloClient` could be replaced with the `OvermindJS GraphQL` that is something to checkout and try.
 
+# Environment
+
+copy the `.env.example` to `.env.local` and replace values to fit your needs.
+
 ## Available Scripts
 
 In the project directory, you can run:
