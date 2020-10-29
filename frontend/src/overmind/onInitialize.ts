@@ -17,7 +17,7 @@ export const onInitialize: OnInitialize = async ({ state }, overmind) => {
         headers: { Authorization: `Bearer ${parsed.token}` }
       };
       try {
-        const test = await axios.post('http://localhost:4000',
+        const test = await axios.post(process.env.REACT_APP_GRAPHQL_ENDPOINT as string,
           {
             query: `
               query connected {

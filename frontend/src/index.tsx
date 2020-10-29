@@ -27,7 +27,7 @@ const theme = createMuiTheme({
 });
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4000',
+  uri: process.env.REACT_APP_GRAPHQL_ENDPOINT as string,
 });
 
 const authLink = setContext((_, { headers }) => {
