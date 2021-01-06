@@ -16,7 +16,7 @@
     "@types/react-dom": "^16.9.0",
     "@types/react-router-dom": "^5.1.5",
     "@types/react-vis": "^1.11.3",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "clsx": "^1.1.1",
     "fontsource-roboto": "^3.0.3",
     "graphql": "^15.3.0",
